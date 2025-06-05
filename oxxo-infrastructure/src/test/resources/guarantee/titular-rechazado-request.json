@@ -1,0 +1,90 @@
+{
+  "qualification": "CALIFICACION_GARANTIA_ASSI",
+  "expedient": {
+    "number": "A000000020049744",
+    "managementType": "SIN_FIRMA",
+    "procedureType": "AFILIACION"
+  },
+  "persons": [
+    {
+      "identityDocument": {
+        "type": "DNI",
+        "number": "93154450"
+      },
+      "birthDate": "1980-06-14",
+      "firstName": "LUCAS",
+      "middleName": "KATELYN",
+      "lastName": "DICKENS",
+      "fullName": "DICKENS ERNSER LUCAS KATELYN",
+      "shortName": "DICKENS,LUCAS",
+      "gender": "MASCULINO",
+      "maritalStatus": "SOLTERO",
+      "personType": "CLIENTE",
+      "customerId": "00000060662873",
+      "secondLastName": "ERNSER",
+      "type": "TITULAR",
+      "hasNotEmail": false,
+      "email": [
+        {
+          "id": "001EMAPER",
+          "type": "PERSONAL",
+          "value": "HUAYANCADILCIA@GMAIL.COM",
+          "update": false
+        }
+      ],
+      "phone": [
+        {
+          "id": "C001933298977",
+          "type": "CELULAR",
+          "number": "933298977"
+        }
+      ],
+      "address": {
+        "department": "TUMBES",
+        "province": "TUMBES",
+        "district": "CORRALES",
+        "streetType": "RESIDENCIAL",
+        "streetName": "LOS CANARIOS",
+        "streetNumber": "4020",
+        "block": "",
+        "lot": "10",
+        "apartment": "",
+        "neighborhood": ""
+      },
+      "company": {
+        "address": {
+          "department": "ANCASH",
+          "province": "HUARAZ",
+          "district": "COCHABAMBA"
+        },
+        "name": "EVERIS",
+        "admissionDate": "2011-07",
+        "phoneNumber": "525686",
+        "extension": "1234",
+        "positionDescripcion": "",
+        "occupation": "INGENIERO",
+        "independent": true,
+        "ubigeo": "",
+        "employeeIndicator": "SIN_DATA",
+        "ruc": "20453867758",
+        "employmentSituation": "DEPENDIENTE"
+      }
+    }
+  ],
+  "products": [
+    {
+      "group": "CREDIT_CARD",
+      "type": "VISA",
+      "subType": "VISA_SIGNATURE",
+      "isPrincipal": true,
+      "requestId": "1",
+      "requestType": "AFILIACION",
+      "guarantee": {
+        "type": "ACCOUNT_WITHHOLDING",
+        "product": "CUENTA_SIMPLE",
+        "ownerType": "INDIVIDUAL",
+        "amount": "13000"
+      }
+    }
+  ]
+}

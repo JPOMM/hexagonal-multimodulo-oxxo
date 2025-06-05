@@ -1,0 +1,12 @@
+{
+  "requestCredits": [
+    {
+      "qualification": "CALIFICACION_GARANTIA_ASSI",
+      "procedureType": "AFILIACION",
+      "productClass": "CREDIT_CARD",
+      "guarantee": true,
+      "categoryName": "cat_tarjetas_credito",
+      "productNameCda": "tc_unificado"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": 20049758,
+  "expedientNumber": "A000000020049758",
+  "originApplication": "WBP",
+  "channelSale": "111",
+  "storeManagement": "898",
+  "managementType": "SIN_FIRMA",
+  "salePoint": "898",
+  "registerDate": "2024-07-08T10:41:57.899-05:00",
+  "status": "CREATED",
+  "clientsDetail": [{
+    "documentType": "DNI",
+    "documentNumber": "21633142",
+    "personType": "TITULAR"
+  }, {
+    "documentType": "DNI",
+    "documentNumber": "77007061",
+    "personType": "CONYUGE"
+  }
+  ],
+  "productApplications": [{
+    "productApplication": "CREDIT_CARD",
+    "productApplicationType": "SOLICITUD_PRODUCTO",
+    "productApplicationNumber": "CREDIT_CARD0020047871",
+    "productApplicationCampaign": null,
+    "leadId": null,
+    "productClassification": "AFFILIATION_CREDIT_CARD_GUARANTEE",
+    "processType": "INGRESO",
+    "subProcessType": "INGRESO",
+    "isMainProduct": true
+  }
+  ]
+}

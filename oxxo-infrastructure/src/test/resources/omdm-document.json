@@ -1,0 +1,2540 @@
+{
+  "groupsDocument": [
+    {
+      "code": "1",
+      "description": "DOCUMENTOS DE DOMICILIO"
+    },
+    {
+      "code": "2",
+      "description": "DOCUMENTOS DE IDENTIFICACIÓN"
+    },
+    {
+      "code": "3",
+      "description": "DOCUMENTOS DE INGRESOS"
+    },
+    {
+      "code": "4",
+      "description": "DOCUMENTOS DE PATRIMONIO"
+    },
+    {
+      "code": "5",
+      "description": "DOCUMENTOS COMPLEMENTARIOS"
+    },
+    {
+      "code": "6",
+      "description": "BIPS"
+    },
+    {
+      "code": "10",
+      "description": "Documentos de Colocaciones"
+    },
+    {
+      "code": "11",
+      "description": "Documentos de Fondos Mutuos"
+    },
+    {
+      "code": "12",
+      "description": "Documentos Condicionales"
+    },
+    {
+      "code": "16",
+      "description": "Documentos de Desembolso Hipotecario"
+    },
+    {
+      "code": "17",
+      "description": "Documento de Operaciones Hipotecarias"
+    }
+  ],
+  "documents": [
+    {
+      "code": "1",
+      "description": "COPIA DE DOCUMENTO DE IDENTIDAD (VALIDAR DATOS, ESTADO CIVIL Y VIGENCIA)",
+      "groupCode": "2"
+    },
+    {
+      "code": "2",
+      "description": "ULTIMA BOLETA DE PAGO",
+      "groupCode": "3"
+    },
+    {
+      "code": "3",
+      "description": "TRES ULTIMAS BOLETAS DE PAGOS Y EECC AFP",
+      "groupCode": "3"
+    },
+    {
+      "code": "4",
+      "description": "SOLIC. DE CREDITO / CONTRATO DE TC / HOJA DE RESUMEN FIRMADOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "5",
+      "description": "ULTIMA BOLETA DE PAGO DE JUBILACIÓN",
+      "groupCode": "3"
+    },
+    {
+      "code": "6",
+      "description": "RECIBOS POR HONORARIOS ELECTRONICOS O PDTS DE LOS 3 ULTIMOS MESES",
+      "groupCode": "3"
+    },
+    {
+      "code": "7",
+      "description": "DECLARACIÓN JURADA ANUAL DE IMPUESTo A LA RENTA DEL ULTIMO AÑO",
+      "groupCode": "3"
+    },
+    {
+      "code": "8",
+      "description": "FORMULARIOS / PDT DE PAGO DE IMPUESTOS DE LOS TRES ULTIMOS MESES",
+      "groupCode": "3"
+    },
+    {
+      "code": "9",
+      "description": "TRES ÚLTIMOS PAGOS DE IGV",
+      "groupCode": "3"
+    },
+    {
+      "code": "10",
+      "description": "CONTRATOS DE ARRENDAMIENTOS VIGENTES",
+      "groupCode": "4"
+    },
+    {
+      "code": "11",
+      "description": "ESTADO DE CUENTAS DE OTRAS TARJETAS O PRESTAMOS BANCARIOS",
+      "groupCode": "4"
+    },
+    {
+      "code": "12",
+      "description": "REMESAS DEL EXTERIOR A TRAVES DE INTERBANK U OTRA ENTIDAD",
+      "groupCode": "1"
+    },
+    {
+      "code": "13",
+      "description": "PDT 3 ULTIMOS PAGOS DE RENTA DE 4TA. CATEGORIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "14",
+      "description": "AUTOVALUO O TITULO DE PROPIEDAD DEL BIEN",
+      "groupCode": "1"
+    },
+    {
+      "code": "15",
+      "description": "ULTIMO RECIBO DE SERVICIOS",
+      "groupCode": "1"
+    },
+    {
+      "code": "16",
+      "description": "CONTRATO DE LOCACION DE SERVICIOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "17",
+      "description": "ESTADO DE GANANCIAS Y PERDIDAS DE LOS DOS ULTIMOS AÑOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "18",
+      "description": "ESTADO DE CUENTA CORRIENTE DE LA EMPRESA EN LA QUE ES ACCIONISTA",
+      "groupCode": "4"
+    },
+    {
+      "code": "19",
+      "description": "COPIA DE LA CONSTITUICION EMPRESA O REGISTRO MERCANTIL",
+      "groupCode": "4"
+    },
+    {
+      "code": "20",
+      "description": "RELACION DE CLIENTES Y PROVEEDORES",
+      "groupCode": "4"
+    },
+    {
+      "code": "21",
+      "description": "COPIA SIMPLE DEL DOCUMENTO DE IDENTIDAD DEL CONYUGE",
+      "groupCode": "1"
+    },
+    {
+      "code": "22",
+      "description": "COPIA SIMPLE DE LA CUENTA DE FONDOS MUTUOS",
+      "groupCode": "4"
+    },
+    {
+      "code": "23",
+      "description": "CONSTANCIA DE INGRESOS PLANILLA",
+      "groupCode": "5"
+    },
+    {
+      "code": "24",
+      "description": "VERIFICAR ESTADO CIVIL EN DNI",
+      "groupCode": "2"
+    },
+    {
+      "code": "25",
+      "description": "CONSTANCIA ADMISIÓN DEL CENTRO DE ESTUDIOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "26",
+      "description": "PROFORMA DE ESTUDIOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "27",
+      "description": "CARTA DE CONFORMIDAD DE INSTITUCIÓN",
+      "groupCode": "5"
+    },
+    {
+      "code": "28",
+      "description": "CARTA DE AUTORIZACIÓN PARA EL ABONO DEL ESTABLECIMIENTO",
+      "groupCode": "5"
+    },
+    {
+      "code": "29",
+      "description": "CARTA DE LA SBS DONDE FIGURA LA CALIFICACIÓN CORRECTA",
+      "groupCode": "5"
+    },
+    {
+      "code": "30",
+      "description": "COPIA DE LA TARJETA DE PROPIEDAD DEL VEHICULO",
+      "groupCode": "4"
+    },
+    {
+      "code": "31",
+      "description": "RECORD DE MULTAS",
+      "groupCode": "5"
+    },
+    {
+      "code": "32",
+      "description": "PERMISO DE CIRCULACION POR PLAZA",
+      "groupCode": "3"
+    },
+    {
+      "code": "33",
+      "description": "TITULO DE PROPIEDAD O AUTOVALUO DE PROPIEDADES ARRENDADAS",
+      "groupCode": "5"
+    },
+    {
+      "code": "34",
+      "description": "RECIBO DE AGUA O LUZ A NOMBRE DEL TITULAR",
+      "groupCode": "1"
+    },
+    {
+      "code": "35",
+      "description": "Correo de Conformidad de constancia de garantia",
+      "groupCode": "3"
+    },
+    {
+      "code": "36",
+      "description": "Copia simple del Documento de Identidad Policial (CIP)",
+      "groupCode": "2"
+    },
+    {
+      "code": "37",
+      "description": "DOS ULTIMOS RECIBOS POR HONORARIOS ELECTRONICOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "38",
+      "description": "DECLARACIÓN JURADA ANUAL DE IMPUESTO A LA RENTA DEL ULTIMO AÑO / PDT DE PAGO ANUAL (SOLO SI ESTA OBLIGADO A PAGAR)/Suspensión de retenciones",
+      "groupCode": "3"
+    },
+    {
+      "code": "39",
+      "description": "FORMULARIOS / PDT DE PAGO DE IMPUESTOS DEL ULTIMO MES",
+      "groupCode": "3"
+    },
+    {
+      "code": "50",
+      "description": "HOJA DE NO ADEUDO SISTEMA FINANCIERO",
+      "groupCode": "5"
+    },
+    {
+      "code": "51",
+      "description": "CARTA DE CORRECCIÓN CLASIFICACIÓN SBS",
+      "groupCode": "5"
+    },
+    {
+      "code": "52",
+      "description": "HOJA DE RESUMEN DE TC",
+      "groupCode": "5"
+    },
+    {
+      "code": "56",
+      "description": "DOCUMENTO DE ARRENDAMIENTO PREDIAL ANUAL",
+      "groupCode": "1"
+    },
+    {
+      "code": "59",
+      "description": "SOLICITUD DE AFILIACION",
+      "groupCode": "6"
+    },
+    {
+      "code": "100",
+      "description": "COPIA DE LICENCIA DE CONDUCIR VIGENTE",
+      "groupCode": "1"
+    },
+    {
+      "code": "101",
+      "description": "COPIA DE LICENCIA DE CIRCULACION SETAME /SETACA",
+      "groupCode": "1"
+    },
+    {
+      "code": "102",
+      "description": "RECORD DE NOTAS DEL ESTUDIANTE",
+      "groupCode": "1"
+    },
+    {
+      "code": "103",
+      "description": "FICHA DE AFILIACION  ATP PARTNERS",
+      "groupCode": "1"
+    },
+    {
+      "code": "104",
+      "description": "DOCUMENTO SUSTENTATORIO DE PATRIMONIO",
+      "groupCode": "1"
+    },
+    {
+      "code": "105",
+      "description": "RELACION DE CLIENTES O PROVEEDORES",
+      "groupCode": "1"
+    },
+    {
+      "code": "106",
+      "description": "CARNET DE EXTRANJERIA",
+      "groupCode": "1"
+    },
+    {
+      "code": "107",
+      "description": "MAIL CONFIRMATORIO DE CODIFICACION INTELIGO",
+      "groupCode": "1"
+    },
+    {
+      "code": "108",
+      "description": "CARTA MARCO DEL CONVENIO",
+      "groupCode": "1"
+    },
+    {
+      "code": "109",
+      "description": "CARTA DE PRESENTACIÓN DE LA AFSDP PRÉSTAMO CONVENIO.",
+      "groupCode": "1"
+    },
+    {
+      "code": "110",
+      "description": "CRONOGRAMA DE PAGO DE PRESTAMOS ESTADOS DE CUENTA ACTUALIZADOS DE LAS DEUDAS DE TC POR COMPRAR",
+      "groupCode": "1"
+    },
+    {
+      "code": "111",
+      "description": "CONTRATO ORIGINAL DE ARRENDAMIENTO CON IB",
+      "groupCode": "1"
+    },
+    {
+      "code": "112",
+      "description": "ADENDA DE AUTORIZACION DE DEBITO (FORMATO- AREA LEGAL)",
+      "groupCode": "1"
+    },
+    {
+      "code": "113",
+      "description": "PAGARE",
+      "groupCode": "1"
+    },
+    {
+      "code": "114",
+      "description": "CARTA DE COMPROMISO(PRESTAMO PARA CONSOLIDACION DE DEUDAS)",
+      "groupCode": "1"
+    },
+    {
+      "code": "115",
+      "description": "PROFORMA DE VEHICULO",
+      "groupCode": "1"
+    },
+    {
+      "code": "116",
+      "description": "BIP 521 - SOLICITUD DE AFILIACION DE PRODUCTOS",
+      "groupCode": "1"
+    },
+    {
+      "code": "117",
+      "description": "CONTRATO DE CREDITO CONSUMO",
+      "groupCode": "1"
+    },
+    {
+      "code": "118",
+      "description": "FORMATO PERSONAS POLITICAMENTE EXPUESTAS PEP",
+      "groupCode": "1"
+    },
+    {
+      "code": "119",
+      "description": "FORMATO DE REFERENCIAS TELEFONICAS",
+      "groupCode": "1"
+    },
+    {
+      "code": "120",
+      "description": "AUTORIZACION DE PAGO DE DEUDAS Y DESEMBOLSO",
+      "groupCode": "1"
+    },
+    {
+      "code": "121",
+      "description": "FORMATO DE COMPROMISO Y CANCELACION  DE DEUDAS",
+      "groupCode": "1"
+    },
+    {
+      "code": "122",
+      "description": "CARTA DE AUTORIZACION DE DESCUENTO",
+      "groupCode": "1"
+    },
+    {
+      "code": "123",
+      "description": "SOLICITUD MODIFICACION CREDITO",
+      "groupCode": "1"
+    },
+    {
+      "code": "124",
+      "description": "FORMULARIO DATOS AVAL",
+      "groupCode": "1"
+    },
+    {
+      "code": "125",
+      "description": "HOJA RESUMEN CONVENIO",
+      "groupCode": "1"
+    },
+    {
+      "code": "126",
+      "description": "SOLICITUD DE AFILIACION DE PRODUCTOS CON FIRMA Y SELLO DE LA INSTITUCION",
+      "groupCode": "1"
+    },
+    {
+      "code": "127",
+      "description": "CONTRATO ACTUAL",
+      "groupCode": "1"
+    },
+    {
+      "code": "128",
+      "description": "CONTRATO VIGENTE Y CONTRATO ANTERIOR QUE DEMUESTRE ANTIGÜEDAD LABORAL MÍNIMA DE 1 AÑO",
+      "groupCode": "1"
+    },
+    {
+      "code": "129",
+      "description": "CLAUSULA ADICIONAL DE CONTRATO",
+      "groupCode": "1"
+    },
+    {
+      "code": "130",
+      "description": "VOUCHER BANCO DE LA NACION",
+      "groupCode": "1"
+    },
+    {
+      "code": "131",
+      "description": "FICHA PEDIDO PARA ESTABLECIMIENTOS AUTORIZADOS",
+      "groupCode": "1"
+    },
+    {
+      "code": "132",
+      "description": "HOJA RESUMEN ADELANTO SUELDO",
+      "groupCode": "1"
+    },
+    {
+      "code": "133",
+      "description": "PROGRAMA ADELANTO SUELDO",
+      "groupCode": "1"
+    },
+    {
+      "code": "134",
+      "description": "ENTREGA DE TARJETA CLAVE",
+      "groupCode": "1"
+    },
+    {
+      "code": "136",
+      "description": "CONTRATO DE TARJETA DE CREDITO",
+      "groupCode": "6"
+    },
+    {
+      "code": "137",
+      "description": "RESOLUCION DE CESANTIA LEY 20530 20520 19990",
+      "groupCode": "5"
+    },
+    {
+      "code": "138",
+      "description": "RESOLUCION DE PENSION AL 100 POR CIENTO DE VIUDEZ",
+      "groupCode": "5"
+    },
+    {
+      "code": "139",
+      "description": "RESOLUCION DE PENSION AL 100 POR CIENTO DE VIUDEZ Y ORFANDAD",
+      "groupCode": "5"
+    },
+    {
+      "code": "140",
+      "description": "CARTA DE PRECALIFICACION",
+      "groupCode": "5"
+    },
+    {
+      "code": "141",
+      "description": "CONSTANCIA DE INGRESO A LABORAR",
+      "groupCode": "5"
+    },
+    {
+      "code": "142",
+      "description": "CARTA DE PRESENT. D CLIENT G1 O CORREO DE SECTORISTA BCA PRIVADA",
+      "groupCode": "5"
+    },
+    {
+      "code": "143",
+      "description": "DOC. SUSTENTARIO DE INGRESOS SEGUN ACTIVIDAD LABORAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "144",
+      "description": "DOCUMENTOS CON VB DEL AREA LEGAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "145",
+      "description": "CORREO DE AUTORIZACION DEL GTE DE PRODUCTO",
+      "groupCode": "5"
+    },
+    {
+      "code": "146",
+      "description": "RESOLUCIÓN DE NOMBRAMIENTO",
+      "groupCode": "5"
+    },
+    {
+      "code": "147",
+      "description": "CONSTANCIA DE EMPLEADOS FIRMADA POR JULIO GONZALES DUCLOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "148",
+      "description": "CARTA DE COMPRA DE DEUDA (FORMATO ESSALUD)",
+      "groupCode": "5"
+    },
+    {
+      "code": "149",
+      "description": "CONSTANCIA FIRMADA POR JOSE LUIS PONTE COLCHADO",
+      "groupCode": "5"
+    },
+    {
+      "code": "150",
+      "description": "CARTA CRUZADA C/INSTITUCION",
+      "groupCode": "5"
+    },
+    {
+      "code": "151",
+      "description": "CONSTANCIA DE INCENTIVOS FIRMADA POR PABLO REYES CHOQUE Y/O EUSEBIO AQUISE YUCRA",
+      "groupCode": "3"
+    },
+    {
+      "code": "152",
+      "description": "BOLETA DE INCETIVOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "153",
+      "description": "CONSTANCIA DE INCENTIVOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "154",
+      "description": "CONSTANCIA DE INCENTIVOS FIRMADA POR JUAN CARLOS CABRERA MERINO",
+      "groupCode": "3"
+    },
+    {
+      "code": "155",
+      "description": "CONSTANCIA DE INCENTVOS FIRMADA POR PABLO REYNOSO CHOQUE",
+      "groupCode": "3"
+    },
+    {
+      "code": "156",
+      "description": "CONSTANCIA DE INCENTIVOS FIRMADA POR NICACIO MERMA BEJAR",
+      "groupCode": "3"
+    },
+    {
+      "code": "157",
+      "description": "CONST INCENTIVOS FIRMADA POR JORGE NELSON RODRIGUEZ R. Y/O CARMEN ALICIA SANDOVAL R Y/O CÉSAR SOSA S",
+      "groupCode": "3"
+    },
+    {
+      "code": "158",
+      "description": "PLANILLA CAFAE",
+      "groupCode": "3"
+    },
+    {
+      "code": "159",
+      "description": "CONSTANCIA FIRMADA POR JOSÉ LUIS PONTE COLCHADO",
+      "groupCode": "3"
+    },
+    {
+      "code": "161",
+      "description": "BOLETA DE RACIONAMIENTO",
+      "groupCode": "3"
+    },
+    {
+      "code": "162",
+      "description": "BOLETA DE MOVILIDAD",
+      "groupCode": "3"
+    },
+    {
+      "code": "163",
+      "description": "BOLETA DE COMBUSTIBLE",
+      "groupCode": "3"
+    },
+    {
+      "code": "164",
+      "description": "CONSTANCIA DE INCENTIVOS FIRMADA POR ROBERTO MENESES QUISPE Y EDGAR NUÑEZ CALLE",
+      "groupCode": "3"
+    },
+    {
+      "code": "165",
+      "description": "INCENTIVOS LABORALES (AETAS PRODUCTIVIDAD BOLSA DE VIVERES Y ALIMENTOS)",
+      "groupCode": "3"
+    },
+    {
+      "code": "166",
+      "description": "RACIONAMIENTO",
+      "groupCode": "3"
+    },
+    {
+      "code": "167",
+      "description": "MOVILIDAD",
+      "groupCode": "3"
+    },
+    {
+      "code": "169",
+      "description": "COMBUSTIBLE",
+      "groupCode": "3"
+    },
+    {
+      "code": "170",
+      "description": "CARTA DE AFILIACIÓN AL C MAS T",
+      "groupCode": "3"
+    },
+    {
+      "code": "171",
+      "description": "ESTADO DE CUENTA ACTUALIZADO DE AFP",
+      "groupCode": "5"
+    },
+    {
+      "code": "172",
+      "description": "ESTADO DE CUENTA ACTUALIZADO DE AFP U ONP EXCEPTO FUERZAS ARMADAS Y POLICIALES",
+      "groupCode": "3"
+    },
+    {
+      "code": "173",
+      "description": "OTROS ING. ULTIMA BOLETA DE PAGO",
+      "groupCode": "3"
+    },
+    {
+      "code": "174",
+      "description": "OTROS ING. TRES ULTIMAS BOLETAS DE PAGOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "175",
+      "description": "OTROS ING. RECIBOS POR HONORARIOS ELECTRONICOS DE LOS 3 ULTIMOS MESES",
+      "groupCode": "3"
+    },
+    {
+      "code": "176",
+      "description": "OTROS ING. FORMULARIOS / PDT DE PAGO DE IMPUESTOS DE LOS TRES ULTIMOS MESES",
+      "groupCode": "3"
+    },
+    {
+      "code": "177",
+      "description": "OTROS ING. CONTRATOS DE ARRENDAMIENTOS VIGENTES",
+      "groupCode": "3"
+    },
+    {
+      "code": "178",
+      "description": "OTROS ING. PDT 3 ULTIMOS PAGOS DE RENTA DE 4TA. CATEGORIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "179",
+      "description": "OTROS ING. CONTRATO DE LOCACION DE SERVICIOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "180",
+      "description": "OTROS ING. ESTADO DE GANANCIAS Y PERDIDAS DE LOS DOS ULTIMOS AÑOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "181",
+      "description": "OTROS ING. ESTADO DE CUENTA CORRIENTE DE LA EMPRESA EN LA QUE ES ACCIONISTA",
+      "groupCode": "3"
+    },
+    {
+      "code": "182",
+      "description": "OTROS ING. COPIA DE LA CONSTITUCION DE EMPRESA O REGISTRO MERCANTIL",
+      "groupCode": "3"
+    },
+    {
+      "code": "183",
+      "description": "OTROS ING. RELACION DE CLIENTES Y PROVEEDORES",
+      "groupCode": "3"
+    },
+    {
+      "code": "184",
+      "description": "OTROS ING. TITULO DE PROPIEDAD O AUTOVALUO DE PROPIEDADES ARRENDADAS",
+      "groupCode": "3"
+    },
+    {
+      "code": "185",
+      "description": "OTROS ING. DECL. JURADA DE IMP. A LA RENTA ULT. AÑO / PDT - PAGO ANUAL (SOLO SI ESTA OBLIGADO)/Suspensión de retenciones",
+      "groupCode": "3"
+    },
+    {
+      "code": "186",
+      "description": "OTROS ING. FORMULARIOS / PDT DE PAGO DE IMPUESTOS DEL ULTIMO MES",
+      "groupCode": "3"
+    },
+    {
+      "code": "187",
+      "description": "OTROS ING. RELACION DE CLIENTES O PROVEEDORES",
+      "groupCode": "3"
+    },
+    {
+      "code": "188",
+      "description": "OTROS ING. ESTADO DE CUENTA ACTUALIZADO DE AFP",
+      "groupCode": "3"
+    },
+    {
+      "code": "189",
+      "description": "COPIA DE LA TARJETA DE PROPIEDAD DEL VEHICULO  A COMPRAR",
+      "groupCode": "5"
+    },
+    {
+      "code": "190",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 01 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "191",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 02 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "192",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 03 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "193",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 04 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "194",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 05 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "195",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 06 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "196",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 07 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "197",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 08 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "198",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 09 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "199",
+      "description": "COMPROBANTES DE CANCELACION DE DEUDAS 10 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "200",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 01 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "201",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 02 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "202",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 03 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "203",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 04 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "204",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 05 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "205",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 06 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "206",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 07 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "207",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 08 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "208",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 09 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "209",
+      "description": "COMPROBANTES DE ANULACION DE LINEAS 10 SEGÚN COMPROMISO",
+      "groupCode": "5"
+    },
+    {
+      "code": "210",
+      "description": "CARTA DE RENUNCIA AL SEGURO  DE DESGRAVAMEN POR EDAD",
+      "groupCode": "5"
+    },
+    {
+      "code": "211",
+      "description": "CONTRATOS DE ALQUILERES VIGENTES",
+      "groupCode": "5"
+    },
+    {
+      "code": "212",
+      "description": "AUTOVALUO DE PROPIEDADES ARRENDADAS",
+      "groupCode": "4"
+    },
+    {
+      "code": "213",
+      "description": "RELACION DE CLIENTES(INQUILINOS)",
+      "groupCode": "5"
+    },
+    {
+      "code": "214",
+      "description": "CORREO ELECTRONICO DE AUTORIZACION ENVIADO POR RAMIRO ESQUIVEL SILVA",
+      "groupCode": "5"
+    },
+    {
+      "code": "215",
+      "description": "TARJETA DE IDENTIFICACION DE LA MARINA (TIN)",
+      "groupCode": "5"
+    },
+    {
+      "code": "216",
+      "description": "OTROS ING. RELACION DE CLIENTES(INQUILINOS)",
+      "groupCode": "3"
+    },
+    {
+      "code": "217",
+      "description": "CARTA PRECALIFICACION HIPOTECARIO",
+      "groupCode": "5"
+    },
+    {
+      "code": "218",
+      "description": "CARTA PRECALIFICACION MI VIVIENDA",
+      "groupCode": "5"
+    },
+    {
+      "code": "219",
+      "description": "CARTA PRECALIFICACION TECHO PROPIO",
+      "groupCode": "5"
+    },
+    {
+      "code": "220",
+      "description": "CARTA PRECALIFICACION AHORRO CASA",
+      "groupCode": "5"
+    },
+    {
+      "code": "221",
+      "description": "DECLARACION PERSONAL DE SALUD (DPS) PROPORCIONADA POR INTERBANK",
+      "groupCode": "5"
+    },
+    {
+      "code": "222",
+      "description": "SENTENCIA DE DIVORCIO",
+      "groupCode": "5"
+    },
+    {
+      "code": "223",
+      "description": "PARTIDA REGISTRAL DE SEPARACION DE PATRIMONIOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "224",
+      "description": "DECLARACIÓN DE UNIÓN DE HECHO NOTARIAL",
+      "groupCode": "16"
+    },
+    {
+      "code": "225",
+      "description": "ULTIMA BOLETA DE PAGO (3 ULTIMAS SI EL INGRESO FUERA VARIABLE)",
+      "groupCode": "3"
+    },
+    {
+      "code": "226",
+      "description": "ULTIMO ESTADO DE CUENTA AFP (SI ESTUVIERA AFILIADO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "227",
+      "description": "3 ULTIMOS DETALLES DE PDT DE 4TA CATEGORIA O 3 ULTIMOS RECIBOS POR HONORARIOS PROFESIONALES ELECTRONICOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "228",
+      "description": "RELACION DE PRINCIPALES CLIENTES Y PROVEEDORES (CON CONTACTO Y TELEFONO OBLIGATORIO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "229",
+      "description": "CONTRATO DE LOCACION DE SERVICIOS (OPCIONAL)",
+      "groupCode": "3"
+    },
+    {
+      "code": "230",
+      "description": "ULTIMA DECLARACION JURADA DE IMPUESTO ANUAL A LA RENTA",
+      "groupCode": "3"
+    },
+    {
+      "code": "231",
+      "description": "3 ULTIMOS PAGOS A LA SUNAT",
+      "groupCode": "3"
+    },
+    {
+      "code": "232",
+      "description": "SI TIENE RUS - 3 ULTIMOS FORMATOS DE PDT MENSUALES SEGUN LA CATEGORIA",
+      "groupCode": "5"
+    },
+    {
+      "code": "233",
+      "description": "SI TIENE RUS - RELACION DE PRINCIPALES CLIENTES Y PROVEEDORES (CONTACTO Y TELEFONO OBLIGATORIOS)",
+      "groupCode": "5"
+    },
+    {
+      "code": "234",
+      "description": "2 ULTIMAS DECLARACIONES JURADAS (DDJJ) DEL IMPUESTO ANUAL A LA RENTA (SOLO SI ESTA OBLIGADO A DECLARAR)",
+      "groupCode": "3"
+    },
+    {
+      "code": "235",
+      "description": "ULTIMO ESTADO DE CUENTA BANCARIO DE LA EMPRESA (OPCIONAL PARA ACCIONISTAS)",
+      "groupCode": "3"
+    },
+    {
+      "code": "236",
+      "description": "INSTRUCCIÓN DE DESEMBOLSO PARA CRÉDITO VEHICULAR",
+      "groupCode": "5"
+    },
+    {
+      "code": "237",
+      "description": "HOJA RESUMEN Y CRONOGRAMA",
+      "groupCode": "5"
+    },
+    {
+      "code": "238",
+      "description": "CORREO DE CONFORMIDAD CON CONTRATO EMITIDA POR ABOGADO DE REGULACIÓN Y CONSUMO",
+      "groupCode": "5"
+    },
+    {
+      "code": "239",
+      "description": "CONTRATO DE CRÉDITO VEHICULAR Y CONSTITUCIÓN DE GARANTÍA MOBILIARIA (2 JUEGOS)",
+      "groupCode": "5"
+    },
+    {
+      "code": "240",
+      "description": "PARTIDA DE MATRIMONIO O IMPRESION DE CONSULTA DE ACTA DE MATRIMONIO EN WEB RENIEC",
+      "groupCode": "5"
+    },
+    {
+      "code": "241",
+      "description": "CARTA DE CARACTERÍSTICAS DEL VEHÍCULO",
+      "groupCode": "5"
+    },
+    {
+      "code": "242",
+      "description": "COMPROBANTE DE PAGO DE CUOTA INICIAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "243",
+      "description": "CARTA DE APROBACIÓN PARA EL CONCESIONARIO",
+      "groupCode": "5"
+    },
+    {
+      "code": "244",
+      "description": "NOTAS DE ABONO POR EL PAGO DE GASTOS POR CONSTITUCIÓN DE GARANTÍA",
+      "groupCode": "5"
+    },
+    {
+      "code": "245",
+      "description": "CERTIFICADO DE SEGURO DE VEHÍCULOS EMITIDA POR LA DIVISIÓN DE SEGUROS (PÓLIZA INTERNA)",
+      "groupCode": "5"
+    },
+    {
+      "code": "246",
+      "description": "SOLICITUD DE SEGURO VEHICULAR (PÓLIZA INTERNA)",
+      "groupCode": "6"
+    },
+    {
+      "code": "247",
+      "description": "CORREO DE CONFORMIDAD SOBRE PÓLIZA DE SEGURO VEHICULAR EMITIDA POR LA DIVISIÓN DE SEGUROS (PÓLIZA EXTERNA)",
+      "groupCode": "5"
+    },
+    {
+      "code": "248",
+      "description": "CORREO DE AUTORIZACIÓN DE FACTURACIÓN A NOMBRE DE TERCERO EMITIDA POR RBP",
+      "groupCode": "5"
+    },
+    {
+      "code": "249",
+      "description": "VIGENCIA DE PODER O PARTIDA REGISTRAL DEL REPRESENTANTE DE LA EMPRESA",
+      "groupCode": "5"
+    },
+    {
+      "code": "250",
+      "description": "DOCUMENTO DE IDENTIDAD DEL REPRESENTANTE DE LA EMPRESA",
+      "groupCode": "2"
+    },
+    {
+      "code": "251",
+      "description": "DOCUMENTO DE IDENTIDAD DE LA PERSONA NATURAL Y SU CONYUGE. PARA FACTURACION A TERCEROS",
+      "groupCode": "2"
+    },
+    {
+      "code": "252",
+      "description": "CARÁTULA DE ESCRITURA PÚBLICA Y ÚLTIMA HOJA CON FIRMAS DEL CLIENTE",
+      "groupCode": "5"
+    },
+    {
+      "code": "253",
+      "description": "DECLARACIÓN PERSONAL DE SALUD (DPS) EN CASO DE CREDITO MAYOR A US 15000",
+      "groupCode": "5"
+    },
+    {
+      "code": "254",
+      "description": "SOLICITUD DE AFILIACION DE PRODUCTOS (SIN FIRMA)",
+      "groupCode": "6"
+    },
+    {
+      "code": "255",
+      "description": "Cartas Portavalor  y Copias de DNI",
+      "groupCode": "5"
+    },
+    {
+      "code": "256",
+      "description": "DECLARACION JURADA DE INGRESOS ADICIONALES",
+      "groupCode": "3"
+    },
+    {
+      "code": "257",
+      "description": "SUSTENTO DE ANULACIÓN DEL PRODUCTO ADELANTO SUELDO",
+      "groupCode": "5"
+    },
+    {
+      "code": "258",
+      "description": "SUSTENTO DE REDUCCION DE TASA PARA COMPRA DE DEUDA DE  CONVENIO",
+      "groupCode": "5"
+    },
+    {
+      "code": "259",
+      "description": "HOJA RESUMEN POR COMPRA DE DEUDA",
+      "groupCode": "5"
+    },
+    {
+      "code": "260",
+      "description": "CARTA DE PRECALIFICACION COMPRA INTELIGENTE",
+      "groupCode": "5"
+    },
+    {
+      "code": "261",
+      "description": "ÚLTIMO RECIBO DE SERVICIOS DEL PAÍS DE RESIDENCIA",
+      "groupCode": "1"
+    },
+    {
+      "code": "262",
+      "description": "CONSTANCIA DE INGRESO EMITIDA POR EL MINISTERIO DE RELACIONES EXTERIORES",
+      "groupCode": "3"
+    },
+    {
+      "code": "263",
+      "description": "CARTA DE INSTRUCCIÓN DEL DIPLOMÁTICO A LA AFSDP SOLICITANDO EL DESCUENTO MENSUAL DE LAS CUOTAS CORRESPONDIENTES AL CRÉDITO",
+      "groupCode": "3"
+    },
+    {
+      "code": "264",
+      "description": "CARTA DE COMPROMISO EMITIDA POR LA AFSDP PARA REALIZAR DESCUENTO",
+      "groupCode": "3"
+    },
+    {
+      "code": "265",
+      "description": "ÚLTIMA DECLARACIÓN JURADA DE IMPUESTO ANUAL A LA RENTA DE 1ERA CATEGORIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "266",
+      "description": "2 ÚLTIMAS DECLARACIONES JURADAS DE IMPUESTO ANUAL A LA RENTA DE 3ERA CATEGORIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "267",
+      "description": "2 ÚLTIMAS DECLARACIONES JURADAS DE IMPUESTO ANUAL A LA RENTA DE 4TA CATEGORIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "268",
+      "description": "DECLARACIÓN JURADA DE PAGO DE IMPUESTOS FORMATO 1040 DE EUA DE LOS 2 ÚLTIMOS ANOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "269",
+      "description": "BOLETAS DE PAGO Y MOVIMIENTOS DE ABONO EN CUENTA DEL ABONO DE SUELDO EN EUA",
+      "groupCode": "3"
+    },
+    {
+      "code": "270",
+      "description": "RECIBO POR HONORARIOS ELECTRONICO DE SER INDEPENDIENTE EN EUA",
+      "groupCode": "3"
+    },
+    {
+      "code": "271",
+      "description": "DECLARACIÓN JURADA DE PAGO DE IMPUESTOS DEL PAÍS DE RESIDENCIA DE LOS 2 ÚLTIMOS ANOS NOTICE OF ASSESSMENT O NOA",
+      "groupCode": "3"
+    },
+    {
+      "code": "272",
+      "description": "CONSTANCIA ORIGINAL DE TRABAJO EN CANADÁ PARA ASALARIADOS O DEPENDIENTES (INDICANDO FECHA DE INGRESO A LA EMPRESA Y CARGO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "273",
+      "description": "CARTA DE REFERENCIAS BANCARIAS EMITIDA POR ALGUNO DE LOS BANCOS DONDE MANTENGA SUS CUENTAS U OTRO PRODUCTO CREDITICIO",
+      "groupCode": "3"
+    },
+    {
+      "code": "274",
+      "description": "COPIA ACTUALIZADA DEL REPORTE CREDITICIO DE LA CENTRAL DE RIESGOS (CREDIT BUREAU) DE LA PERSONA EN CANADÁ",
+      "groupCode": "3"
+    },
+    {
+      "code": "275",
+      "description": "SOLICITUD DE APERTURA",
+      "groupCode": "10"
+    },
+    {
+      "code": "276",
+      "description": "CARTILLA DE INFORMACIÓN  CUENTA MILLONARIA",
+      "groupCode": "10"
+    },
+    {
+      "code": "277",
+      "description": "CARTILLA DE INFORMACIÓN CUENTA SUELDO",
+      "groupCode": "10"
+    },
+    {
+      "code": "278",
+      "description": "CARTILLA DE INFORMACIÓN CUENTA ÁGIL",
+      "groupCode": "10"
+    },
+    {
+      "code": "279",
+      "description": "CARTILLA DE INFORMACIÓN AHORRO SENCILLO",
+      "groupCode": "10"
+    },
+    {
+      "code": "280",
+      "description": "CARTILLA DE INFORMACIÓN AHORRO LIBRE EMPRESARIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "281",
+      "description": "CARTILLA DE INFORMACIÓN AHORRO EUROS",
+      "groupCode": "10"
+    },
+    {
+      "code": "282",
+      "description": "CARTILLA DE INFORMACIÓN CUENTA SIMPLE",
+      "groupCode": "10"
+    },
+    {
+      "code": "283",
+      "description": "CARTILLA DE INFORMACIÓN CUENTA MÓVIL EMPRESARIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "284",
+      "description": "CARTILLA DE INFORMACIÓN AHORRO EDUCACIÓN",
+      "groupCode": "10"
+    },
+    {
+      "code": "285",
+      "description": "CARTILLA DE INFORMACIÓN CUENTA CORRIENTE",
+      "groupCode": "10"
+    },
+    {
+      "code": "286",
+      "description": "CARTILLA DE INFORMACIÓN MILLONARIA CTS",
+      "groupCode": "10"
+    },
+    {
+      "code": "287",
+      "description": "CARTILLA DE INFORMACIÓN DEPÓSITO CERTIFICADO BANCARIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "288",
+      "description": "CARTILLA DE INFORMACIÓN DE DEPÓSITO PERSONA NATURAL",
+      "groupCode": "10"
+    },
+    {
+      "code": "289",
+      "description": "CONTRATO DE APERTURA DE CUENTA",
+      "groupCode": "10"
+    },
+    {
+      "code": "290",
+      "description": "Cargo de Recepción",
+      "groupCode": "10"
+    },
+    {
+      "code": "291",
+      "description": "BIP 716 ENTREGA TARJETA DÉBITO",
+      "groupCode": "10"
+    },
+    {
+      "code": "292",
+      "description": "CONTRATO DE ADMINISTRACIÓN",
+      "groupCode": "11"
+    },
+    {
+      "code": "293",
+      "description": "PROSPECTO SIMPLIFICADO IF CASH SOLES",
+      "groupCode": "11"
+    },
+    {
+      "code": "294",
+      "description": "PROSPECTO SIMPLIFICADO IF CASH",
+      "groupCode": "11"
+    },
+    {
+      "code": "295",
+      "description": "PROSPECTO SIMPLIFICADO IF INTERNACIONAL",
+      "groupCode": "11"
+    },
+    {
+      "code": "296",
+      "description": "PROSPECTO SIMPLIFICADO IF MIXTO BALANCEADO",
+      "groupCode": "11"
+    },
+    {
+      "code": "297",
+      "description": "PROSPECTO SIMPLIFICADO IF DEUDA",
+      "groupCode": "11"
+    },
+    {
+      "code": "298",
+      "description": "PROSPECTO SIMPLIFICADO IF ACCIONES SOLES",
+      "groupCode": "11"
+    },
+    {
+      "code": "299",
+      "description": "PROSPECTO SIMPLIFICADO IF MIXTO BALANCEADO SOLES",
+      "groupCode": "11"
+    },
+    {
+      "code": "300",
+      "description": "PROSPECTO SIMPLIFICADO IF MIXTO MODERADO SOLES",
+      "groupCode": "11"
+    },
+    {
+      "code": "301",
+      "description": "PROSPECTO SIMPLIFICADO IF DEUDA SOLES",
+      "groupCode": "11"
+    },
+    {
+      "code": "302",
+      "description": "PROSPECTO SMPLIFICADO IF PLUS",
+      "groupCode": "11"
+    },
+    {
+      "code": "303",
+      "description": "PROSPECTO SIMPLIFICADO IF EXTRA CONSERVADOR SOLES",
+      "groupCode": "11"
+    },
+    {
+      "code": "304",
+      "description": "PROSPECTO SIMPLIFICADO IF EXTRA CONSERVADOR",
+      "groupCode": "11"
+    },
+    {
+      "code": "305",
+      "description": "TÉRMINOS Y CONDICIONES DEL CONTRATO DE ADMINISTRACIÓN DE FONDOS MUTUOS",
+      "groupCode": "11"
+    },
+    {
+      "code": "306",
+      "description": "AUTORIZACIÓN PARA RECIBIR PROMOCIONES",
+      "groupCode": "11"
+    },
+    {
+      "code": "307",
+      "description": "AUTORIZACIÓN DE TRANSFERENCIA AUTOMÁTICA PARA CUENTA SIMPLE Y AHORRO EUROS",
+      "groupCode": "12"
+    },
+    {
+      "code": "308",
+      "description": "SOLICITUD DE MODIFICACIÓN DE DATOS",
+      "groupCode": "12"
+    },
+    {
+      "code": "309",
+      "description": "BIP 716 ENTREGA DE TARJETA DE DÉBITO",
+      "groupCode": "12"
+    },
+    {
+      "code": "310",
+      "description": "REGLAMENTO DE PARTICIPACIÓN DE FONDOS",
+      "groupCode": "12"
+    },
+    {
+      "code": "311",
+      "description": "BIP 525 FORMATO DE PERSONAS EXPUESTAS POLÍTICAMENTE",
+      "groupCode": "12"
+    },
+    {
+      "code": "312",
+      "description": "COPIA DE CARNÉ DE EXTRANJERÍA",
+      "groupCode": "12"
+    },
+    {
+      "code": "313",
+      "description": "COPIA DE PASAPORTE",
+      "groupCode": "12"
+    },
+    {
+      "code": "314",
+      "description": "COPIA PARTIDA DE NACIMIENTO",
+      "groupCode": "12"
+    },
+    {
+      "code": "315",
+      "description": "BIP 2120 AFILIACIÓN Y MODIFICACIÓN DE LA CUENTA AHORRO SENCILLO",
+      "groupCode": "12"
+    },
+    {
+      "code": "316",
+      "description": "ANEXO PARA LA APERTURA DE AHORRO CASA",
+      "groupCode": "12"
+    },
+    {
+      "code": "317",
+      "description": "ANEXO PARA LA APERTURA DE AHORRO TECHO",
+      "groupCode": "12"
+    },
+    {
+      "code": "318",
+      "description": "BIP 959 LAVADO DE ACTIVOS",
+      "groupCode": "12"
+    },
+    {
+      "code": "319",
+      "description": "AUTORIZACIÓN DE APERTURA DE CUENTA SUELDO",
+      "groupCode": "10"
+    },
+    {
+      "code": "320",
+      "description": "COPIA SEGUNDO DOCUMENTO",
+      "groupCode": "12"
+    },
+    {
+      "code": "321",
+      "description": "VOUCHER DE DEPÓSITO REFRENDO TÉRMICO",
+      "groupCode": "12"
+    },
+    {
+      "code": "322",
+      "description": "BIP 004 DEPÓSITO MULTIPRODUCTO",
+      "groupCode": "12"
+    },
+    {
+      "code": "323",
+      "description": "BIP 710 FORMATO DE SUSCRIPCIONES Y RESCATE",
+      "groupCode": "12"
+    },
+    {
+      "code": "324",
+      "description": "BIP 991 CERTIFICADO BANCARIO",
+      "groupCode": "12"
+    },
+    {
+      "code": "325",
+      "description": "BIP 990 CERTIFICADO BANCARIO EN GARANTÍA",
+      "groupCode": "12"
+    },
+    {
+      "code": "326",
+      "description": "IMPRESIÓN EN REVES DEL CHEQUE",
+      "groupCode": "12"
+    },
+    {
+      "code": "327",
+      "description": "CONTRATOS DE ARRENDAMIENTOS VIGENTES",
+      "groupCode": "3"
+    },
+    {
+      "code": "328",
+      "description": "LICENCIA DE FUNCIONAMIENTO",
+      "groupCode": "5"
+    },
+    {
+      "code": "329",
+      "description": "EDICTO MATRIMONIAL",
+      "groupCode": "3"
+    },
+    {
+      "code": "330",
+      "description": "PASAPORTE O DNI DEL REMESADOR LEGALIZADO EN CONSULADO PERUANO (O CON SELLO CONSULAR)",
+      "groupCode": "3"
+    },
+    {
+      "code": "331",
+      "description": "DECLARACIÓN JURADA AHORRO CASA DEL EXTERIOR LEGALIZADA EN CONSULADO PERUANO (O CON SELLO CONSULAR)",
+      "groupCode": "3"
+    },
+    {
+      "code": "332",
+      "description": "DECLARACION JURADA PARA AHORRO CASA SIN PAPELES",
+      "groupCode": "3"
+    },
+    {
+      "code": "333",
+      "description": "ÚLTIMO RECIBO POR HONORARIOS ELECTRONICO",
+      "groupCode": "3"
+    },
+    {
+      "code": "334",
+      "description": "ÚLTIMA DECLARACION DE  JURADA ANUAL DE SEGUNDA CATEGORÍA PRESENTADA A LA SUNAT",
+      "groupCode": "3"
+    },
+    {
+      "code": "335",
+      "description": "VOUCHERS DE COMPRAS",
+      "groupCode": "3"
+    },
+    {
+      "code": "336",
+      "description": "RELACIÓN DE PROOVEDORES",
+      "groupCode": "3"
+    },
+    {
+      "code": "337",
+      "description": "LICENCIA DE FUNCIONAMIENTO",
+      "groupCode": "3"
+    },
+    {
+      "code": "338",
+      "description": "PERMISO DE LA MUNICIPALIDAD",
+      "groupCode": "3"
+    },
+    {
+      "code": "339",
+      "description": "APORTES A ESSALUD COMO EMPLEADA DEL HOGAR",
+      "groupCode": "3"
+    },
+    {
+      "code": "340",
+      "description": "CARTA DE FAMILIA - EMPLEADA DEL HOGAR",
+      "groupCode": "3"
+    },
+    {
+      "code": "341",
+      "description": "DECLARACIÓN JURADA DE INGRESOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "342",
+      "description": "OTROS ING. 2 ÚLTIMAS DECLARACIONES JURADAS DE IMPUESTO A LA RENTA",
+      "groupCode": "3"
+    },
+    {
+      "code": "343",
+      "description": "OTROS ING. RELACION DE CLIENTES O PROVEEDORES (CON CONTACTO Y TELEFONO OBLIGATORIO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "344",
+      "description": "OTROS ING. 3 ULTIMOS PAGOS A LA SUNAT",
+      "groupCode": "3"
+    },
+    {
+      "code": "345",
+      "description": "OTROS ING. RELACION DE INQUILINOS (CON CONTACTO Y TELEFONO OBLIGATORIO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "346",
+      "description": "BIP351 TARJETA DE REGISTRO DE FIRMAS",
+      "groupCode": "10"
+    },
+    {
+      "code": "347",
+      "description": "SUSTENTO DE INGRESOS BOLETAS // RRHH ELECTRONICOS",
+      "groupCode": "10"
+    },
+    {
+      "code": "348",
+      "description": "COPIA DE SERVICIO (LUZ, AGUA O TELÉFONO)",
+      "groupCode": "10"
+    },
+    {
+      "code": "349",
+      "description": "SUSTENTO DE ULTIMA CUOTA EN CUENTA AHORRO CASA",
+      "groupCode": "5"
+    },
+    {
+      "code": "350",
+      "description": "SUSTENTO DE COMPLETAR ABONO EN LA CUENTA AHORRO CASA",
+      "groupCode": "5"
+    },
+    {
+      "code": "351",
+      "description": "SUSTENTO DE CUOTA INICIAL EN OTRO BANCO",
+      "groupCode": "5"
+    },
+    {
+      "code": "352",
+      "description": "SUSTENTO DE ABONOS DE AHORRO CASA EN OTRO BANCO",
+      "groupCode": "5"
+    },
+    {
+      "code": "353",
+      "description": "SUSTENTO DE PAGO DE ALQUILER DE LOS ULTIMOS 4 MESES",
+      "groupCode": "5"
+    },
+    {
+      "code": "354",
+      "description": "SUSTENTO DE PAGO DE ALQUILER DE LOS ULTIMOS 6 MESES",
+      "groupCode": "5"
+    },
+    {
+      "code": "355",
+      "description": "SOLICITUD DE MANCOMUNACION DE CUENTA AHORRO CASA",
+      "groupCode": "5"
+    },
+    {
+      "code": "356",
+      "description": "AUTORIZACIÓN DE APERTURA DE CUENTA SUELDO",
+      "groupCode": "12"
+    },
+    {
+      "code": "357",
+      "description": "PU - HR",
+      "groupCode": "3"
+    },
+    {
+      "code": "358",
+      "description": "ULTIMA DECLARACIÓN JURADA ANUAL (DONDE SE VISUALICE PORCENTAJE DE ACCIONES)",
+      "groupCode": "3"
+    },
+    {
+      "code": "359",
+      "description": "AUTORIZACION DE APERTURA DE CUENTA SUELDO",
+      "groupCode": "10"
+    },
+    {
+      "code": "360",
+      "description": "ANEXO AHORRO AUTO",
+      "groupCode": "12"
+    },
+    {
+      "code": "361",
+      "description": "ESTADO DE CUENTA DE TC PARA LA COMPRA DE DEUDA",
+      "groupCode": "5"
+    },
+    {
+      "code": "362",
+      "description": "INSCRIPCIÓN EN REGISTROS PÚBICOS DE SEPARACIÓN DE BIENES CONYUGALES",
+      "groupCode": "5"
+    },
+    {
+      "code": "363",
+      "description": "CARTA SIMPLE SOLICITANDO LA LIBERACION DE LA GARANTIA VEHICULAR",
+      "groupCode": "5"
+    },
+    {
+      "code": "364",
+      "description": "COPIA DEL CERTIFICADO DE GRAVAMEN DEL VEHICULO",
+      "groupCode": "5"
+    },
+    {
+      "code": "365",
+      "description": "COPIA DEL BOLETIN INFORMATIVO",
+      "groupCode": "5"
+    },
+    {
+      "code": "366",
+      "description": "COPIA DEL TITULO ARCHIVO DE LA CONSTITUCION DE LA GARANTIA",
+      "groupCode": "5"
+    },
+    {
+      "code": "367",
+      "description": "COPIA SIMPLE DE DOCUMENTO DE IDENTIDAD",
+      "groupCode": "5"
+    },
+    {
+      "code": "368",
+      "description": "CONTRATO DE PRESTAMO VEHICULAR Y CONSTITUCION DE GARANTIA ORIGINAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "369",
+      "description": "COPIA DE LA TARJETA DE PROPIEDAD DEL VEHICULO",
+      "groupCode": "5"
+    },
+    {
+      "code": "370",
+      "description": "VIGENCIA DE PODERES DE SER EL CASO",
+      "groupCode": "5"
+    },
+    {
+      "code": "371",
+      "description": "PARTIDA DE MATRIMONIO DE SER EL CASO",
+      "groupCode": "5"
+    },
+    {
+      "code": "372",
+      "description": "COPIA LITERAL DE SEPARACION DE PATRIMONIOS DE SER EL CASO",
+      "groupCode": "5"
+    },
+    {
+      "code": "373",
+      "description": "CORREO DE CONFORMIDAD PARA TASA ESPECIAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "374",
+      "description": "BIP 522 AUTORIZACION DE PAGO  Y DESEMBOLSO",
+      "groupCode": "6"
+    },
+    {
+      "code": "375",
+      "description": "BIP 521 - SOLICITUD DE AFILIACIÓN DE PRODUCTOS",
+      "groupCode": "10"
+    },
+    {
+      "code": "376",
+      "description": "BIP 522 - AUTORIZACIÓN DE PAGO DE DEUDAS Y DESEMBOLSO",
+      "groupCode": "10"
+    },
+    {
+      "code": "377",
+      "description": "BIP 523 - SOLICITUD DE MODIFICACIÓN",
+      "groupCode": "10"
+    },
+    {
+      "code": "378",
+      "description": "BIP 524 - FORMATO DE CANCELACIÓN DE DEUDAS",
+      "groupCode": "10"
+    },
+    {
+      "code": "379",
+      "description": "FDO-0460 - ENTREGA DE TARJETA EFECTIVO EXPRESS Y CLAVE",
+      "groupCode": "10"
+    },
+    {
+      "code": "380",
+      "description": "HOJA RESUMEN PRÉSTAMO PERSONAL POR CONVENIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "381",
+      "description": "HOJA RESUMEN - CRÉDITO POR CONVENIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "382",
+      "description": "COPIA SIMPLE DEL DOCUMENTO DE IDENTIDAD",
+      "groupCode": "10"
+    },
+    {
+      "code": "383",
+      "description": "COPIA SIMPLE CARNET DE EXTRANJERIA",
+      "groupCode": "10"
+    },
+    {
+      "code": "384",
+      "description": "AUTORIZACION DE DESEMBOLSO CONDOR TRAVEL",
+      "groupCode": "5"
+    },
+    {
+      "code": "385",
+      "description": "CONSTANCIA ADMISIÓN DEL CENTRO DE  ESTUDIOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "386",
+      "description": "OTROS ING. JUB. ULTIMA BOLETA DE PAGO",
+      "groupCode": "3"
+    },
+    {
+      "code": "387",
+      "description": "SOLICITUD DE AFILIACION COMBO TC",
+      "groupCode": "6"
+    },
+    {
+      "code": "388",
+      "description": "TERMINOS Y CONDICIONES DE LA AUTORIZACION DE PAGO",
+      "groupCode": "5"
+    },
+    {
+      "code": "389",
+      "description": "SOLICITUD DE PAGO AUTOMÁTICO",
+      "groupCode": "10"
+    },
+    {
+      "code": "390",
+      "description": "CARTILLA INFORMATIVA BIG CUSTOMER",
+      "groupCode": "10"
+    },
+    {
+      "code": "391",
+      "description": "PARTIDA DE DEFUNCIÓN O DNI CON ESTADO CIVIL ACTUALIZADO",
+      "groupCode": "5"
+    },
+    {
+      "code": "392",
+      "description": "PARTIDA DE MATRIMONIO CON INCLUSO DE DIVORCIO O INSCRIPCIÓN EN REGISTROS PÚBLICOS O DNI CON ESTADO CIVIL ACTUALIZADO",
+      "groupCode": "5"
+    },
+    {
+      "code": "393",
+      "description": "PARTIDA DE MATRIMONIO O DNI CON ESTADO CIVIL ACTUALIZADO",
+      "groupCode": "5"
+    },
+    {
+      "code": "394",
+      "description": "TRES ULTIMAS BOLETAS DE PAGO",
+      "groupCode": "3"
+    },
+    {
+      "code": "395",
+      "description": "2 ÚLTIMAS DECLARACIONES JURADAS ANUALES DE RENTA PERSONAL PRESENTADA A LA SUNAT",
+      "groupCode": "3"
+    },
+    {
+      "code": "396",
+      "description": "CERTIFICADO DE INGRESOS POR ACCIONES EMITIDO POR LA EMPRESA (SI TUVIERA ACCIONES)",
+      "groupCode": "3"
+    },
+    {
+      "code": "397",
+      "description": "OTROS ING. ULTIMA BOLETA DE PAGO (3 ULTIMAS SI EL INGRESO FUERA VARIABLE)",
+      "groupCode": "5"
+    },
+    {
+      "code": "398",
+      "description": "OTROS ING. ULTIMO ESTADO DE CUENTA AFP (SI ESTUVIERA AFILIADO)",
+      "groupCode": "5"
+    },
+    {
+      "code": "399",
+      "description": "OTROS ING. 3 ULTIMOS DETALLES DE PDT DE 4TA CATEGORIA O 3 ULTIMOS RECIBOS POR HONORARIOS PROFESIONALES ELECTRONICOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "400",
+      "description": "OTROS ING. RELACION DE PRINCIPALES CLIENTES Y PROVEEDORES (CON CONTACTO Y TELEFONO OBLIGATORIO)",
+      "groupCode": "5"
+    },
+    {
+      "code": "401",
+      "description": "OTROS ING. CONTRATO DE LOCACION DE SERVICIOS (OPCIONAL)",
+      "groupCode": "5"
+    },
+    {
+      "code": "402",
+      "description": "OTROS ING. ULTIMA DECLARACION JURADA DE IMPUESTO ANUAL A LA RENTA",
+      "groupCode": "5"
+    },
+    {
+      "code": "403",
+      "description": "OTROS ING. 3 ULTIMOS PAGOS A LA SUNAT",
+      "groupCode": "5"
+    },
+    {
+      "code": "404",
+      "description": "OTROS ING. 2 ULTIMAS DECLARACIONES JURADAS (DDJJ) DEL IMPUESTO ANUAL A LA RENTA (SOLO SI ESTA OBLIGADO A DECLARAR)",
+      "groupCode": "5"
+    },
+    {
+      "code": "405",
+      "description": "OTROS ING. ULTIMO ESTADO DE CUENTA BANCARIO DE LA EMPRESA (OPCIONAL PARA ACCIONISTAS)",
+      "groupCode": "5"
+    },
+    {
+      "code": "406",
+      "description": "OTROS ING. 2 ULTIMAS DECLARACIONES JURADAS ANUALES DE RENTA PERSONAL PRESENTADA A LA SUNAT",
+      "groupCode": "5"
+    },
+    {
+      "code": "407",
+      "description": "OTROS ING. CERTIFICADO DE INGRESOS POR ACCIONES EMITIDO POR LA EMPRESA (SI TUVIERA ACCIONES)",
+      "groupCode": "5"
+    },
+    {
+      "code": "408",
+      "description": "CARTA DE BIENVENIDA  MEGAPLAZA",
+      "groupCode": "10"
+    },
+    {
+      "code": "409",
+      "description": "CARTA DE BIENVENIDA  VEA VISA",
+      "groupCode": "10"
+    },
+    {
+      "code": "410",
+      "description": "CARTA DE BIENVENIDA CLARO VISA",
+      "groupCode": "10"
+    },
+    {
+      "code": "411",
+      "description": "CARTA DE BIENVENIDA VISA",
+      "groupCode": "10"
+    },
+    {
+      "code": "412",
+      "description": "CLAUSULA ADICIONAL AL CONTRATO DE TARJETA DE CRÉDITO",
+      "groupCode": "6"
+    },
+    {
+      "code": "413",
+      "description": "Cláusula adicional al contrato de Préstamo Personal",
+      "groupCode": "6"
+    },
+    {
+      "code": "414",
+      "description": "CLÁUSULA ADICIONAL AL CONTRATO DE CRÉDITO VEHICULAR",
+      "groupCode": "6"
+    },
+    {
+      "code": "415",
+      "description": "DECLARACIÓN JURADA NOTARIAL DE SOLTERÍA DE TITULAR Y NOVIO(A)",
+      "groupCode": "5"
+    },
+    {
+      "code": "416",
+      "description": "FORMULARIO PDT 617 O DECLARACIÓN ANUAL ÚLTIMOS DOS AÑOS DE RENTA PERSONAL DECLARADA ANTE SUNAT",
+      "groupCode": "3"
+    },
+    {
+      "code": "417",
+      "description": "ULTIMA BOLETA DE PAGO (SOLO DEPENDIENTE O JUBILADO).",
+      "groupCode": "3"
+    },
+    {
+      "code": "418",
+      "description": "ULTIMA DECLARACION JURADA (DDJJ) DEL IMPUESTO ANUAL A LA RENTA ( INDEPENDIENTE, RENTISTA O ACCIONISTAS).",
+      "groupCode": "3"
+    },
+    {
+      "code": "419",
+      "description": "ULTIMO DETALLE DE PDT DE 4TA CATEGORIA O ULTIMO MES DE RECIBO POR HONORARIO PROFESIONALES ELECTRONICO (SOLO INDEPENDIENTE).",
+      "groupCode": "3"
+    },
+    {
+      "code": "420",
+      "description": "CONTRATO DE LOCACION DE SERVICIOS (OPCIONAL SOLO INDEPENDIENTE).",
+      "groupCode": "3"
+    },
+    {
+      "code": "421",
+      "description": "ULTIMO FORMATO DE PDT MENSUALES (SOLO ACCIONISTAS).",
+      "groupCode": "3"
+    },
+    {
+      "code": "422",
+      "description": "ULTIMO PAGO A LA SUNAT (SOLO RENTISTA DE LOCAL COMERCIAL).",
+      "groupCode": "3"
+    },
+    {
+      "code": "423",
+      "description": "FICHA REGISTRAL DE CONSTITUCION DE LA EMPRESA (SOLO ACCIONISTAS).",
+      "groupCode": "3"
+    },
+    {
+      "code": "424",
+      "description": "RELACION DE PRINCIPALES CLIENTES Y PROVEEDORES CON CONTACTO Y TELEFONO OBLIGATORIO (INDEPENDIENTE O ACCIONISTA).",
+      "groupCode": "3"
+    },
+    {
+      "code": "425",
+      "description": "DOCUMENTO DE SUSTENTO DE INGRESOS ADICIONALES CONVENIO (AETAS, INCENTIVOS, PRODUCTIVIDAD, COMBUSTIBLE)",
+      "groupCode": "3"
+    },
+    {
+      "code": "426",
+      "description": "CARTA DE APROBACIÓN DE HIPOTECARIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "427",
+      "description": "DECLARACION PERSONAL DE SALUD (DPS) INDIVIDUAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "428",
+      "description": "DECLARACION PERSONAL DE SALUD (DPS) MANCOMUNADO",
+      "groupCode": "5"
+    },
+    {
+      "code": "429",
+      "description": "DOCUMENTO DE IDENTIDAD DEL PAIS DE ORIGEN",
+      "groupCode": "2"
+    },
+    {
+      "code": "430",
+      "description": "GREENCARD O RESIDENCIA",
+      "groupCode": "5"
+    },
+    {
+      "code": "431",
+      "description": "DECLARACIÓN JURADA NOTARIAL DE SOLTERÍA (Titular / Novio(a))",
+      "groupCode": "16"
+    },
+    {
+      "code": "432",
+      "description": "PRESUPUESTO DE OBRA FIRMADO POR INGENIERO O ARQUITECTO",
+      "groupCode": "16"
+    },
+    {
+      "code": "433",
+      "description": "CARTILLA DE INFORMACIÓN DE CUENTA DE AHORROS FIRMADA",
+      "groupCode": "16"
+    },
+    {
+      "code": "434",
+      "description": "VOUCHER DE CADA UNA DE LAS CANCELACIONES / ANULACIONES DE DEUDAS COMPROMETIDAS",
+      "groupCode": "16"
+    },
+    {
+      "code": "435",
+      "description": "ABONO DE SUELDO EN CUENTA BANCARIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "436",
+      "description": "3 ULTIMAS BOLETAS DE PAGO (INCLUIR TODOS LOS INGRESO POR MES)",
+      "groupCode": "3"
+    },
+    {
+      "code": "437",
+      "description": "IMPRESION DE INGRESOS (CALCULADORA)",
+      "groupCode": "3"
+    },
+    {
+      "code": "438",
+      "description": "ESTADOS DE CUENTA BANCARIOS DE DEUDAS ACTUALIZADOS EN EL EXTERIOR",
+      "groupCode": "3"
+    },
+    {
+      "code": "439",
+      "description": "COPIA ACTUALIZADA DEL REPORTE CREDITICIO DE LA CENTRAL DE RIESGOS (CREDIT BUREAU). DEBERÁ SOLICITARSE EN SU BANCO O EMPRESA ESPECIALIZADA EN EUA",
+      "groupCode": "3"
+    },
+    {
+      "code": "440",
+      "description": "VOUCHERS DE LAS REMESAS DEL EXTERIOR",
+      "groupCode": "3"
+    },
+    {
+      "code": "441",
+      "description": "CONTRATO DE ALQUILER VIGENTE FIRMADO POR EL ARRENDADOR DEL INMUEBLE DONDE RESIDE ACTUALMENTE",
+      "groupCode": "3"
+    },
+    {
+      "code": "442",
+      "description": "ULTIMO RECIBO DE SERVICIOS A NOMBRE DEL ARRENDADOR O PU - HR DEL INMUEBLE EN ALQUILER",
+      "groupCode": "3"
+    },
+    {
+      "code": "443",
+      "description": "OUCHER BANCARIOS DEL PAGO DE ALQUILER O RECIBO DE IMPUESTO A LA RENTA 1ERA CATEGORIA PRESENTADO A SUNAT POR EL ARRENDADOR (FORM 1683)",
+      "groupCode": "3"
+    },
+    {
+      "code": "444",
+      "description": "SI CUENTA CON INGRESOS NO VALIDABLES ADJUNTAR DECLARACIÓN JURADA DE INGRESO",
+      "groupCode": "3"
+    },
+    {
+      "code": "445",
+      "description": "ORIGINAL DEL CERTIFICADO NEGATIVO DE PROPIEDAD EXPEDIDO POR LA SUNARP,NO MAYOR A 15 DÍAS (A SOLICITUD DEL BANCO)",
+      "groupCode": "16"
+    },
+    {
+      "code": "446",
+      "description": "VOUCHER DE CUOTA INICIAL DEPOSITADA EN OTRO BANCO O VOUCHER DE CUOTA INICIAL DEPOSITADA AL VENDEDOR",
+      "groupCode": "16"
+    },
+    {
+      "code": "447",
+      "description": "FORMATO DE APROBACIÓN DE HIPOTECARIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "448",
+      "description": "GRABACIÓN DE ACEPTACIÓN DE INCREMENTO  DE LINEA - TITULAR",
+      "groupCode": "2"
+    },
+    {
+      "code": "449",
+      "description": "FORMATO DE VERIFICACION LABORAL SELLADO POR GERENTE DE TIENDA",
+      "groupCode": "1"
+    },
+    {
+      "code": "450",
+      "description": "FORMATO DE VERIFICACIÓN DOMICILIARIA SELLADO POR GERENTE DE TIENDA",
+      "groupCode": "1"
+    },
+    {
+      "code": "451",
+      "description": "FORMATO DE MIGRACION DE TARJETA DE CREDITO",
+      "groupCode": "1"
+    },
+    {
+      "code": "452",
+      "description": "FORMATO DE SOLICITUD DE INCREMENTO DE LINEA POR CAMPAÑA",
+      "groupCode": "1"
+    },
+    {
+      "code": "453",
+      "description": "GRABACION DE ACEPTACION DE INCREMENTO DE LINEA",
+      "groupCode": "1"
+    },
+    {
+      "code": "454",
+      "description": "6 ÚLTIMOS PDT / PAGOS A LA SUNAT.",
+      "groupCode": "3"
+    },
+    {
+      "code": "455",
+      "description": "COPIA DE LA CONSTITUCIÓN DE LA EMPRESA O FICHA REGISTRAL",
+      "groupCode": "3"
+    },
+    {
+      "code": "456",
+      "description": "Carta de Autorización de Descuento PNP",
+      "groupCode": "3"
+    },
+    {
+      "code": "457",
+      "description": "DOCUMENTO SOLICITUD MODIFICACION CREDITO",
+      "groupCode": "1"
+    },
+    {
+      "code": "458",
+      "description": "FORMATO DE CAMBIOS - CREDITO HIPOTECARIO",
+      "groupCode": "17"
+    },
+    {
+      "code": "459",
+      "description": "REPORTE ACTUALIZADO DE CENTRALES DE RIESGOS DEL EXTERIOR",
+      "groupCode": "17"
+    },
+    {
+      "code": "460",
+      "description": "LISTA ACTUALIZADA DE PRINCIPALES CLIENTES Y/O PROVEEDORES",
+      "groupCode": "17"
+    },
+    {
+      "code": "461",
+      "description": "FORMATO DE COMPROMISO DE CANCELACION DE DEUDAS",
+      "groupCode": "17"
+    },
+    {
+      "code": "462",
+      "description": "FORMATO DE COMPRA DE DEUDA",
+      "groupCode": "17"
+    },
+    {
+      "code": "463",
+      "description": "FORMATO DE EXCEPCION (INGRESO A EVALUACIÓN DE RIESGOS)",
+      "groupCode": "17"
+    },
+    {
+      "code": "464",
+      "description": "CONFORMIDAD DE VALIDACIÓN VB DE INSTITUCIÓN.",
+      "groupCode": "1"
+    },
+    {
+      "code": "465",
+      "description": "BIP 1041 - AFILIACION A BANCA SMS Y CLAVE DINAMICA SMS",
+      "groupCode": "10"
+    },
+    {
+      "code": "466",
+      "description": "CARTA DE DESCUENTO POR PLANILLA AFSDP.",
+      "groupCode": "1"
+    },
+    {
+      "code": "467",
+      "description": "SOLICITUD - CERTIFICADO DE PROTECCION DE CREDITOS PERSONALES (EN CASO SE SOLICITE SU FINANCIAMIENTO)",
+      "groupCode": "1"
+    },
+    {
+      "code": "468",
+      "description": "CONTRATO (985)",
+      "groupCode": "1"
+    },
+    {
+      "code": "469",
+      "description": "BIP SOLICITUD (628)",
+      "groupCode": "1"
+    },
+    {
+      "code": "470",
+      "description": "CARTA DE DESEMBOLSO EN CUENTA DE AHORRO",
+      "groupCode": "1"
+    },
+    {
+      "code": "471",
+      "description": "PRINT DE PANTALLA CICS CUENTA SIMPLE INDIVIDUAL",
+      "groupCode": "1"
+    },
+    {
+      "code": "472",
+      "description": "SOLICITUD-CERTIFICADO DE DESGRAVAMEN",
+      "groupCode": "1"
+    },
+    {
+      "code": "473",
+      "description": "Carta de Autorización de Descuento EsSalud",
+      "groupCode": "1"
+    },
+    {
+      "code": "474",
+      "description": "CARTA DE AUTORIZACIÓN DE DESCUENTO DEL CONGRESO",
+      "groupCode": "1"
+    },
+    {
+      "code": "475",
+      "description": "CORREO DE CONFORMIDAD POR SEGURO DE DESGRAVAMEN DORADO",
+      "groupCode": "1"
+    },
+    {
+      "code": "476",
+      "description": "CORREO DE CONFORMIDAD POR SEGURO DE INMUEBLE DORADO",
+      "groupCode": "1"
+    },
+    {
+      "code": "477",
+      "description": "VALIDACIÓN EN CENTRALES Y/O CRONOGRAMA DE PAGOS DE DEUDAS A COMPRAR",
+      "groupCode": "1"
+    },
+    {
+      "code": "478",
+      "description": "CLIENTES CON HORAS EXTRA Y/O COMISIONES, DEBERÁN ADJUNTAR BOLETAS DE PAGO DE 3 ÚLTIMOS MESES O BOLETA DEL ÚLTIMO MES Y ÚLTIMA BOLETA CON GRATIFICACIÓN",
+      "groupCode": "3"
+    },
+    {
+      "code": "479",
+      "description": "CLIENTES CON BONOS TRIMESTRALES, DEBERÁN ADJUNTAR BOLETA DE PAGO DEL ÚLTIMO MES Y 2 ÚLTIMAS BOLETAS DE PAGO QUE INCLUYAN BONOS.",
+      "groupCode": "3"
+    },
+    {
+      "code": "480",
+      "description": "ÚLTIMO ESTADO DE CUENTA DE AFP Y/O ABONOS EN CUENTA PLANILLA",
+      "groupCode": "3"
+    },
+    {
+      "code": "481",
+      "description": "DECLARACIÓN JURADA ÚLTIMO AÑO  O  SOLICITUD DE SUSPENSIÓN DE 4TA CATEGORÍA",
+      "groupCode": "3"
+    },
+    {
+      "code": "482",
+      "description": "CONSTANCIA DE PRESENTACIÓN O CERTIFICADO DE RENTAS Y RETENCIÓN DE 4TA CATEGORÍA O SOLICITUD DE SUSPENSIÓN DE 4TA CATEGORÍA",
+      "groupCode": "3"
+    },
+    {
+      "code": "483",
+      "description": "ESTADO DE CUENTA DE TC U OTROS CRÉDITOS VIGENTES",
+      "groupCode": "3"
+    },
+    {
+      "code": "484",
+      "description": "DECLARACIÓN JURADA ÚLTIMO AÑO Y CONSTANCIA DE PRESENTACIÓN ( PARA CLIENTES CON 3ERA CATEGORÍA)",
+      "groupCode": "3"
+    },
+    {
+      "code": "485",
+      "description": "COPIA DE LAS 6 ÚLTIMAS DDJJ DEL IMPUESTO MENSUAL DE IGV A SUNAT / PAGOS A SUNAT  ( PARA CLIENTES CON RER Y RUS)",
+      "groupCode": "3"
+    },
+    {
+      "code": "486",
+      "description": "LICENCIA DE FUNCIONAMIENTO SI NO TIENE 2 AÑOS CON RUC ACTIVO",
+      "groupCode": "3"
+    },
+    {
+      "code": "487",
+      "description": "CONTRATO QUE DEMUESTRE ANTIGÜEDAD LABORAL MINIMA DE 2 AÑOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "488",
+      "description": "HOJA DE RESUMEN DE ADELANTO DE SUELDO",
+      "groupCode": "12"
+    },
+    {
+      "code": "489",
+      "description": "FIRMA OBLIGATORIA DE CÓNYUGE PARA MONTOS MAYORES A S/.70, 000, ADJUNTAR COPIA DNI",
+      "groupCode": "1"
+    },
+    {
+      "code": "490",
+      "description": "PARA MONTOS MAYORES A S/.40, 000 SE REQUIERE FIRMA DE CÓNYUGE EN SOLICITUD Y PAGARÉ, ASÍ COMO SU DNI",
+      "groupCode": "1"
+    },
+    {
+      "code": "491",
+      "description": "TODOS LOS CRÉDITOS HIPOTECARIOS CAPTADOS POR EL CANAL 22 SIEMPRE DEBERÁN ADJUNTAR DNI",
+      "groupCode": "2"
+    },
+    {
+      "code": "492",
+      "description": "SOLICITUD DE CREDITO POR CONVENIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "493",
+      "description": "BALANCE GENERAL SUNAT 2 ÚLTIMOS AÑOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "494",
+      "description": "CRONOGRAMA DE DEUDAS DE LA EMPRESA EN EL SSFF",
+      "groupCode": "3"
+    },
+    {
+      "code": "495",
+      "description": "REFERENCIA DATOS CONTADOR",
+      "groupCode": "3"
+    },
+    {
+      "code": "496",
+      "description": "COPIA DE CONSTITUCIÓN DE EMPRESA PARA MICROEMPRESARIOS CON REG Y RER",
+      "groupCode": "3"
+    },
+    {
+      "code": "497",
+      "description": "CARTA PORTAVALOR PRÉSTAMOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "498",
+      "description": "CRONOGRAMA DE PAGOS DE DEUDAS A COMPRAR",
+      "groupCode": "1"
+    },
+    {
+      "code": "499",
+      "description": "SOLICITUD DE CONSOLIDACIÓN DE DEUDA TARJETA DE CRÉDITO EN EL PRODUCTO CONVENIO",
+      "groupCode": "1"
+    },
+    {
+      "code": "500",
+      "description": "CARTA DE PRE APROBACION HIPOTECARIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "501",
+      "description": "CARTA COMPROMISO COLABORADOR",
+      "groupCode": "10"
+    },
+    {
+      "code": "502",
+      "description": "CARTA CONSOLIDACION DEUDA COLABORADOR",
+      "groupCode": "10"
+    },
+    {
+      "code": "503",
+      "description": "CARTA DE AUTORIZACIÓN -  MINISTERIO PÚBLICO",
+      "groupCode": "3"
+    },
+    {
+      "code": "504",
+      "description": "SOLICITUD DE CRÉDITO - MINISTERIO PÚBLICO",
+      "groupCode": "10"
+    },
+    {
+      "code": "505",
+      "description": "COPIA ADICIONAL DEL DNI",
+      "groupCode": "5"
+    },
+    {
+      "code": "506",
+      "description": "COPIA DE RESOLUCIÓN INGRESO AL EJÉRCITO O VALIDACION VB INSTITUCION",
+      "groupCode": "5"
+    },
+    {
+      "code": "507",
+      "description": "CARTA DE TRATAMIENTO DE DATOS PERSONALES",
+      "groupCode": "5"
+    },
+    {
+      "code": "508",
+      "description": "ENVIO DE SOLICITUD, CONTRATO, APERTURA DE CUENTA (EN CASO REQUIERA) A EMAIL DEL SOLICITANTE",
+      "groupCode": "5"
+    },
+    {
+      "code": "509",
+      "description": "3 ULTIMOS RECIBOS POR HONORARIOS O PAGO A SUNAT MENSUAL PDT 616 O RETENCION DE 4TA CATEGORIA",
+      "groupCode": "3"
+    },
+    {
+      "code": "510",
+      "description": "RELACION DE CLIENTES (TELEFONO FIJO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "511",
+      "description": "CRONOGRAMA DE DEUDAS SSFF DE LA PERSONA",
+      "groupCode": "3"
+    },
+    {
+      "code": "512",
+      "description": "ESTADO DE CUENTA CORRIENTE DE LA EMPRESA",
+      "groupCode": "3"
+    },
+    {
+      "code": "513",
+      "description": "OTROS ING. 3 ÚLTIMOS RECIBOS POR HONORARIOS O PAGO A SUNAT MENSUAL PDT 616 O 3 ÚLTIMOS PAGOS MENSUALES DE RETENCIÓN DE 4TA CATEGORÍA ACTIVO",
+      "groupCode": "3"
+    },
+    {
+      "code": "514",
+      "description": "OTROS ING. RELACIÓN DE CLIENTES (TELÉFONO FIJO)",
+      "groupCode": "3"
+    },
+    {
+      "code": "515",
+      "description": "OTROS ING. CRONOGRAMA DE DEUDAS SSFF DE LA PERSONA",
+      "groupCode": "3"
+    },
+    {
+      "code": "516",
+      "description": "OTROS ING. CONTRATO DE ALQUILER",
+      "groupCode": "3"
+    },
+    {
+      "code": "517",
+      "description": "OTROS ING. PU Y HR",
+      "groupCode": "3"
+    },
+    {
+      "code": "518",
+      "description": "OTROS ING. BALANCE GENERAL (2 ÚLTIMOS AÑOS)",
+      "groupCode": "3"
+    },
+    {
+      "code": "519",
+      "description": "OTROS ING. CRONOGRAMA DE DEUDAS SSFF DE LA EMPRESA",
+      "groupCode": "3"
+    },
+    {
+      "code": "520",
+      "description": "OTROS ING. ESTADO DE CUENTA CORRIENTE DE LA EMPRESA",
+      "groupCode": "3"
+    },
+    {
+      "code": "521",
+      "description": "VALIDACIÓN DE CD LINEA PARALELA",
+      "groupCode": "3"
+    },
+    {
+      "code": "522",
+      "description": "CARTA DE ACEPTACIÓN DE CAMBIO DE CONDICIONES",
+      "groupCode": "5"
+    },
+    {
+      "code": "523",
+      "description": "CERTIFICADO DE PROYECTO INMOBILIARIO SOSTENIBLE (EN CASO SE SOLICITE BMS)",
+      "groupCode": "3"
+    },
+    {
+      "code": "524",
+      "description": "CHECKLIST FIRMADO POR EL JEFE DE CONVENIOS",
+      "groupCode": "3"
+    },
+    {
+      "code": "525",
+      "description": "CARTA DE AUTORIZACIÓN DE DESCUENTO POR PLANILLA  EDUCACIÓN",
+      "groupCode": "3"
+    },
+    {
+      "code": "526",
+      "description": "FORMATO DE CUOTA INICIAL AFP",
+      "groupCode": "3"
+    },
+    {
+      "code": "527",
+      "description": "FORMATO DE DESEMBOLSO DE EXTRACASH",
+      "groupCode": "3"
+    },
+    {
+      "code": "528",
+      "description": "SE RESPETO EL SPEECH DE VENTA",
+      "groupCode": "3"
+    },
+    {
+      "code": "529",
+      "description": "DESCARGAR LOS DOCUMENTOS CONTRACTUALES EN EL SIGUIENTE LINK URL INTERBANK/GN/PROCESOPOLITICA/COL 016 INS2017.ASPX Y COMPLETAR EL FORMULARIO DE PRÉSTAM",
+      "groupCode": "3"
+    },
+    {
+      "code": "530",
+      "description": "RECUERDA QUE TIENES QUE ENVIAR EL FORMULARIO DE PRESTAMO COLABORADOR A TU JEFE INMEDIATO PARA SU APROBACION.",
+      "groupCode": "3"
+    },
+    {
+      "code": "531",
+      "description": "IMPORTANTE PARA ESTE FLUJO NO ES NECESARIO LA FIRMA DEL CONYUGE NI ENVIAR LOS DOCUMENTOS POR VALIJA A PRESTAMO COLABORADOR CTC COMO SE DETALLA LINEAS",
+      "groupCode": "3"
+    },
+    {
+      "code": "532",
+      "description": "DESCARGAR LOS DOCUMENTOS CONTRACTUALES",
+      "groupCode": "6"
+    },
+    {
+      "code": "533",
+      "description": "PASO 1 -  REVISA LOS DOCUMENTOS CONTRACTUALES",
+      "groupCode": "6"
+    },
+    {
+      "code": "534",
+      "description": "PASO 2 - COMPLETA EL FORMULARIO DE PRÉSTAMO FÁCIL",
+      "groupCode": "6"
+    },
+    {
+      "code": "535",
+      "description": "PASO 3 -  ENVÍALO POR EMAIL A TU JEFE INMEDIATO PARA SU APROBACIÓN",
+      "groupCode": "6"
+    },
+    {
+      "code": "536",
+      "description": "PASO 4 -  ENCUENTRA TODOS LOS DOCUMENTOS CONTRACTUALES Y EL FORMULARIO EN COMUNICADOS",
+      "groupCode": "6"
+    },
+    {
+      "code": "537",
+      "description": "IMPORTANTE - PARA MONTOS MENORES O IGUALES A S/40,000.00 TODO EL PROCESO SERÁ DIGITAL,  DE ACUERDO A LO INDICADO EN LA GUIA DEL PROCESO",
+      "groupCode": "6"
+    },
+    {
+      "code": "538",
+      "description": "ULTIMO LIBRO DE MATRICULAS DE ACCIONES",
+      "groupCode": "3"
+    },
+    {
+      "code": "539",
+      "description": "COPIA LITERAL DE LA EMPRESA",
+      "groupCode": "3"
+    },
+    {
+      "code": "540",
+      "description": "CONTRATO DE CREDITO DE CONSUMO - CONVENIOS",
+      "groupCode": "10"
+    },
+    {
+      "code": "541",
+      "description": "SOLICITUD DE AFILIACIÓN DE TARJETA DE CRÉDITO",
+      "groupCode": "10"
+    },
+    {
+      "code": "542",
+      "description": "ACUSE ÚNICO DE TC (HOJA RESUMEN, CONTRATO Y ACUSE DE TC)",
+      "groupCode": "6"
+    },
+    {
+      "code": "543",
+      "description": "SOLICITUD DE CREDITO DE CONSUMO  PRESTAMOS",
+      "groupCode": "10"
+    },
+    {
+      "code": "544",
+      "description": "AUTORIZACIÓN DE PAGO Y DESEMBOLSO PARA COMPRA DE DEUDA ATAQUE",
+      "groupCode": "10"
+    },
+    {
+      "code": "545",
+      "description": "AUTORIZACIÓN DE PAGO Y DESEMBOLSO PARA COMPRA DE DEUDA DEFENSA",
+      "groupCode": "10"
+    },
+    {
+      "code": "546",
+      "description": "CARTA DE APROBACIÓN DE FINANCIAMIENTO COMPLEMENTARIO TECHO PROPIO",
+      "groupCode": "10"
+    },
+    {
+      "code": "547",
+      "description": "COMPROMISO DE CANCELACIÓN Y/O ANULACIÓN DE PRODUCTOS EN SSFF",
+      "groupCode": "5"
+    },
+    {
+      "code": "548",
+      "description": "CARTA DE AUTORIZACION MGP",
+      "groupCode": "3"
+    },
+    {
+      "code": "549",
+      "description": "CARTA DE AUTORIZACION MGP - CPMP",
+      "groupCode": "3"
+    },
+    {
+      "code": "550",
+      "description": "ADJUNTAR ESTA NOTIFICACION DE APROBACION Y EL FORMULARIO DE TARJETAS DE CREDITO COLABORADORES",
+      "groupCode": "5"
+    },
+    {
+      "code": "551",
+      "description": "COMPLETAMENTE LLENADOS QUE LO ENCUENTRAS EN  COMUNICADOS Y",
+      "groupCode": "5"
+    },
+    {
+      "code": "552",
+      "description": "ENVIARLOS AL BUZON TC PARA COLABORADORES",
+      "groupCode": "5"
+    },
+    {
+      "code": "553",
+      "description": "TE RECORDAMOS REVISAR ESTE LINK ANTES DE LLENAR EL FORMULARIO DIGITAL",
+      "groupCode": "5"
+    },
+    {
+      "code": "554",
+      "description": "NO DEBES ENVIAR DOCUMENTOS FISICOS NI ESCANEADOS",
+      "groupCode": "5"
+    },
+    {
+      "code": "555",
+      "description": "HOJA DE CONOCIMIENTO Y COMPROMISO MGP",
+      "groupCode": "3"
+    },
+    {
+      "code": "10036",
+      "groupCode": "19",
+      "name": "ESTADO DE CUENTA Y/O CRONOGRAMA DE DEUDAS A COMPRAR."
+    }
+  ]
+}

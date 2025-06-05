@@ -1,0 +1,85 @@
+{
+    "qualification": "CALIFICACION_GARANTIA_ASSI",
+    "expedient": {
+        "number": "A000000020049735",
+        "managementType": "SIN_FIRMA",
+        "procedureType": "AFILIACION"
+    },
+    "persons": [{
+            "identityDocument": {
+                "type": "DNI",
+                "number": "34235147"
+            },
+            "customerId": "00000061683077",
+            "birthDate": "1980-01-14",
+            "firstName": "HELLEN",
+            "middleName": "RUSS",
+            "lastName": "HODKIEWICZ",
+            "secondLastName": "WINDLER",
+            "fullName": "SANCHEZ AGUILAR MOLLY AUGUSTO",
+            "gender": "FEMENINO",
+            "maritalStatus": "CONVIVIENTE",
+            "personType": "CLIENTE",
+            "type": "TITULAR",
+            "hasNotEmail": false,
+            "email": [{
+                    "id": "001EMAPER",
+                    "type": "PERSONAL",
+                    "value": "ASSI.IBK.PRUEBAS@GMAIL.COM",
+                    "update": false
+                }
+            ],
+            "phone": [{
+                    "id": "C001994325466",
+                    "type": "CELULAR",
+                    "number": "994325466"
+                }
+            ],
+            "address": {
+                "department": "LIMA",
+                "province": "LIMA",
+                "district": "SAN JUAN DE LURIGANC",
+                "streetType": "AVENIDA",
+                "streetName": "LOS CANARIOS",
+                "streetNumber": "4015",
+                "block": "A7",
+                "lot": "06",
+                "apartment": "40",
+                "neighborhood": ""
+            },
+            "company": {
+                "address": {
+                    "department": "ANCASH",
+                    "province": "HUARAZ",
+                    "district": "COCHABAMBA"
+                },
+                "name": "EVERIS",
+                "admissionDate": "2011-07",
+                "phoneNumber": "525686",
+                "extension": "1234",
+                "positionDescripcion": "",
+                "occupation": "ODONTOLOGO",
+                "independent": true,
+                "ubigeo": "",
+                "employeeIndicator": "SIN_DATA",
+                "ruc": "20100084920",
+                "employmentSituation": "DEPENDIENTE"
+            }
+        }
+    ],
+    "products": [{
+            "group": "CREDIT_CARD",
+            "type": "VISA",
+            "subType": "VISA_SIGNATURE",
+            "isPrincipal": true,
+            "requestId": "1",
+            "requestType": "AFILIACION",
+            "guarantee": {
+                "type": "ACCOUNT_WITHHOLDING",
+                "product": "CUENTA_SIMPLE",
+                "ownerType": "INDIVIDUAL",
+                "amount": "13000"
+            }
+        }
+    ]
+}
